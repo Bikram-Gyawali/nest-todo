@@ -7,7 +7,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 @Module({
   imports: [
     MongooseModule.forRoot(
-      'mongodb+srv://bikram:bikram123@cluster0.jhmiu.mongodb.net/nestcrud?retryWrites=true&w=majority',
+      'mongodb+srv://bikram:1234fakepwchangethis@cluster0.jhmiu.mongodb.net/nestcrud?retryWrites=true&w=majority',
     ),
     TodoModule,
   ],
